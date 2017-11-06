@@ -1,0 +1,110 @@
+a.live-btn-light,
+button.live-btn-light,
+a.live-btn-dark,
+button.live-btn-dark {
+    margin: 8px;
+    padding: 0 11px;
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.32);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 400ms ease 0s;
+    -moz-transition: all 400ms ease 0s;
+    -ms-transition: all 400ms ease 0s;
+    -o-transition: all 400ms ease 0s;
+    transition: all 400ms ease 0s;
+}
+
+a.live-btn-light,
+a.live-btn-dark {
+    color: transparent;
+}
+
+button.live-btn-light,
+button.live-btn-dark {
+    text-align: initial;
+    border: none;
+    -webkit-appearance: none;
+}
+
+button.live-btn-light .btn-text,
+button.live-btn-dark .btn-text {
+    margin-top: 0;
+}
+
+button.live-btn-light .live-icon-svg {
+    margin-top: 0;
+}
+
+.live-btn-light {
+    background-color: #fff;
+}
+
+.live-btn-dark {
+    background-color: #4285f4;
+}
+
+.live-btn-light .live-icon-svg {
+    position: absolute;
+    margin-top: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.live-btn-dark .live-icon-svg {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.live-btn-dark .live-svg-container {
+    background: #fff;
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    left: 1px;
+    top: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.live-btn-light .btn-text,
+.live-btn-dark .btn-text {
+    margin: 11px 0 0 40px;
+    font-size: 14px;
+    letter-spacing: .4px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.live-btn-light .btn-text {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.live-btn-dark .btn-text {
+    color: #fff;
+}
+
+.live-btn-dark:active,
+.live-btn-light:active {
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .24);
+}
+
+.live-btn-light:active {
+    background: #eee;
+}
+
+.live-btn-dark:active {
+    background: #3367d6;
+}
