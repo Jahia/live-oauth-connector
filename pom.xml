@@ -33,7 +33,7 @@
     </parent>
 
     <artifactId>live-oauth-connector</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Live OAuth Connector</name>
     <description>This is the custom module (Live OAuth Connector) for running on a Digital Experience Manager server.</description>
@@ -42,7 +42,7 @@
         <connection>scm:git:git@github.com:Jahia/live-oauth-connector.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/live-oauth-connector.git</developerConnection>
         <url>https://github.com/Jahia/live-oauth-connector</url>
-      <tag>1_0_1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
