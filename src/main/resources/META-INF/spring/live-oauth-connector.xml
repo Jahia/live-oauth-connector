@@ -13,7 +13,7 @@
         </osgi:service-properties>
     </osgi:service>
 
-    <bean id="liveConnectorImpl" class="org.jahia.modules.liveoauthconnector.impl.LiveConnectorImpl" init-method="onStart">
+    <bean id="liveConnectorImpl" class="org.jahia.modules.liveoauthconnector.impl.LiveConnectorImpl">
         <property name="serviceName" value="LiveApi"/>
         <property name="protectedResourceUrl" value="https://apis.live.net/v5.0/me"/>
         <property name="availableProperties">
